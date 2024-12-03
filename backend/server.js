@@ -1,5 +1,5 @@
-const express = require("express");
-const cors = require("cors");
+import express from "express";
+import cors from "cors";
 
 const app = express();
 const PORT = 5000;
@@ -60,16 +60,6 @@ const articles = [
   },
   {
     id: 6,
-    title: "Responsive Design Tips",
-    summary:
-      "Tips and tricks for making your websites look great on any device.",
-    content:
-      "Responsive design ensures that your website works on all devices, from mobile phones to desktops...",
-    featuredImage: "https://via.placeholder.com/300x200?text=Responsive+Design",
-    reporterName: "Emily Davis",
-  },
-  {
-    id: 7,
     title: "Responsive Design Tips",
     summary:
       "Tips and tricks for making your websites look great on any device.",

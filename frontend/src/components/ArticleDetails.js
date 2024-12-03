@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
 
+
+
 const ArticleDetails = () => {
   const { id } = useParams();
   const [article, setArticle] = useState(null);
